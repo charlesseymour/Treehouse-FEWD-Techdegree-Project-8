@@ -44,6 +44,8 @@ header nav {
 header nav ul li {
   display: inline-block;
   margin-right: 20px;
+  color: rgb(64, 173, 207);
+  font-weight: bold;
 }
 
 header nav ul li img{
