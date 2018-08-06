@@ -44,11 +44,19 @@ header nav {
 header nav ul li {
   display: inline-block;
   margin-right: 20px;
-  color: rgb(64, 173, 207);
+  color: #39ADD1;
   font-weight: bold;
 }
 
-header nav ul li img{
+header nav ul li:hover {
+  color: yellow;  
+}
+
+header nav ul li:hover path {
+  fill: yellow;
+}
+
+header nav ul li svg {
   height: .9em;
   margin-right: 10px;
 }
