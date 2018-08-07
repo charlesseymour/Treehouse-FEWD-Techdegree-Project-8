@@ -61,6 +61,16 @@ header nav ul li svg {
   margin-right: 10px;
 }
 
+#logo {
+  width: 140px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#logo svg g:nth-of-type(2) {
+  display: none;
+}
+
 main {
   padding-top: 50px;
 }
@@ -74,4 +84,15 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media (min-width: 425px) {
+  #logo_text {
+    display: none;
+  }
+  
+  #logo svg g:nth-of-type(2) {
+    display: initial;
+  }
+  
 }
