@@ -79,6 +79,28 @@ main h2 {
   font-size: 28px;
 }
 
+.corgi {
+  width: 20%;
+  margin: 0 2%;
+}
+
+.sable {
+  color: rgb(185, 127, 91);
+}
+
+.fawn {
+  color: rgb(233, 170, 130);
+}
+
+.red {
+  color: rgb(131, 75, 41);
+}
+
+.stone {
+  color: rgb(82, 89, 94);
+}
+
+
 footer {
   width: 100%;
   margin-top: 100px;
